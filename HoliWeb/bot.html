@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>HOLIWEB</title>
+
+  <link rel="icon" href="#" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/mdb.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<header>
+  <br><br>
+
+  <dir class="container">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #B0E0E6">
+
+      <div class="container">
+
+        <a class="navbar-brand" href="#!"><strong>ChatBot</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html ">Inicio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </dir>
+  <br><br>
+  <div class="container">
+    <img src="images/banner/banner3.jpeg" class="img-fluid" width="1200" height="200" alt="banner">
+  </div>
+
+</header>
+
+<body background="fondo1.jpeg">
+
+  <br><br>
+
+  <!--ChatBot-->
+
+  <head>
+
+    <div class="container">
+      <script crossorigin="anonymous"
+        src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+      <style>
+        html,
+        body {
+          height: 100%;
+        }
+
+        body {
+          margin: 0;
+        }
+
+        #webchat {
+          height: 100%;
+          width: 100%;
+        }
+      </style>
+  </head>
+
+  <body>
+    <div id="webchat" role="main"></div>
+    <script>
+      window.WebChat.renderWebChat(
+        {
+          directLine: window.WebChat.createDirectLine({
+            token: 'ovE6suI4gGg.53zJh9tKnXEEp6SuyDllWIKg17TIxFF2kgd64Wkbm0g'
+          }),
+          userID: 'YOUR_USER_ID',
+          username: 'Web Chat User',
+          locale: 'en-US'
+        },
+        document.getElementById('webchat')
+      );
+    </script>
+    </p>
+    </div>
+    <br><br>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript"></script>
+
+  </body>
+
+</html>
