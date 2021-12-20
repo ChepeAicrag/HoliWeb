@@ -29,7 +29,12 @@ ___
 
 ### TCO 3 años y Precio Total por mes
 
+[TCO](Calculadora%20del%20costo%20total%20de%20propiedad%20(TCO)%20_%20Microsoft%20Azure.pdf)
 
+
+[Precio Total por mes](ExportedEstimate.xlsx)
+
+El precio total por mes es de USD 73.75.
 ___
 ### Tiempo sin disponibilidad a un año
 | Porcentaje de acuerdo de nivel de servicio | Tiempo de inactividad por semana | Tiempo de inactividad por mes | Tiempo de inactividad por año |
