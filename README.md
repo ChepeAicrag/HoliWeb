@@ -54,3 +54,6 @@ Buen desarrollo pero siento que falto un poco de organización, por lo demás fu
 Me pareció algo desorganizado, debido a que no había un itinerario que nos permitiera orientar en que momentos se realizaban las mentorías o la disponibilidad de los mismos mentores, así cómo recibir información respecto a los entregables que se harían. Pero en general fue una buena experiencia para apreder y reforzar los conocimientos de Azure.
 - Ángel García
 ```
+
+# Recursos
+Todos los recursos de Azure empleados en este proyecto se encuentran en el grupo de recursos llamado **HoliWeb** del usuario inv2131@innovacccion.mx
